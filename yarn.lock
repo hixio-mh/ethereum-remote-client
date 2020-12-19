@@ -6520,12 +6520,12 @@ bytewise@~1.1.0:
     bytewise-core "^1.2.2"
     typewise "^1.0.3"
 
-c3@^0.6.7:
-  version "0.6.10"
-  resolved "https://registry.yarnpkg.com/c3/-/c3-0.6.10.tgz#465f9bc5fbafb58c33c8ed641b0ec9717b158452"
-  integrity sha512-8HjpD1eSma75HI66hLQ+jD5KEvUMhSiiKfovQlyJk+Wxa1ebRL7Smxgu3ybBHkv9khe9m94TJRHpZ9Svcjo40w==
+c3@^0.7.20:
+  version "0.7.20"
+  resolved "https://registry.yarnpkg.com/c3/-/c3-0.7.20.tgz#48cb3dbeeb0a5253aee6c3d795aaaf350e9f1147"
+  integrity sha512-QZg4q5M32x2TEgoiQPgc+G+rAuDErTjtG2AeLxS8s0ZLxHBoqsaRcraVvLBG8Zbmj8hOefz2DCWSlX3gaV/11g==
   dependencies:
-    d3 "^5.0.0"
+    d3 "^5.8.0"
 
 cacache@^11.3.2:
   version "11.3.2"
@@ -8371,10 +8371,47 @@ d3-zoom@1:
     d3-selection "1"
     d3-transition "1"
 
-d3@^5.0.0, d3@^5.7.0:
+d3@^5.7.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/d3/-/d3-5.7.0.tgz#f189d338bdde62acf02f308918e0ec34dd7568f9"
   integrity sha512-8KEIfx+dFm8PlbJN9PI0suazrZ41QcaAufsKE9PRcqYPWLngHIyWJZX96n6IQKePGgeSu0l7rtlueSSNq8Zc3g==
+  dependencies:
+    d3-array "1"
+    d3-axis "1"
+    d3-brush "1"
+    d3-chord "1"
+    d3-collection "1"
+    d3-color "1"
+    d3-contour "1"
+    d3-dispatch "1"
+    d3-drag "1"
+    d3-dsv "1"
+    d3-ease "1"
+    d3-fetch "1"
+    d3-force "1"
+    d3-format "1"
+    d3-geo "1"
+    d3-hierarchy "1"
+    d3-interpolate "1"
+    d3-path "1"
+    d3-polygon "1"
+    d3-quadtree "1"
+    d3-random "1"
+    d3-scale "2"
+    d3-scale-chromatic "1"
+    d3-selection "1"
+    d3-shape "1"
+    d3-time "1"
+    d3-time-format "2"
+    d3-timer "1"
+    d3-transition "1"
+    d3-voronoi "1"
+    d3-zoom "1"
+
+d3@^5.8.0:
+  version "5.16.0"
+  resolved "https://registry.yarnpkg.com/d3/-/d3-5.16.0.tgz#9c5e8d3b56403c79d4ed42fbd62f6113f199c877"
+  integrity sha512-4PL5hHaHwX4m7Zr1UapXW23apo6pexCgdetdJ5kTmADpG/7T9Gkxw0M0tf/pjoB63ezCCm0u5UaFYy2aMt0Mcw==
   dependencies:
     d3-array "1"
     d3-axis "1"
